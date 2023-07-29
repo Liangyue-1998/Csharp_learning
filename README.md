@@ -1,7 +1,7 @@
 # Unity
 ### Official Document
-Unity document: https://docs.unity.com/
-Unity 3D document: https://docs.unity3d.com/ScriptReference/
+- Unity document: https://docs.unity.com/
+- Unity 3D document: https://docs.unity3d.com/ScriptReference/
 ### Unity3D 呈像原理
 #### Unity渲染模型
 1. Unity渲染模型都是从顶点(vertices)开始，顶点是由一组三维向量数组构成(Vector3[])，各个顶点的三维坐标分布在空间中。
