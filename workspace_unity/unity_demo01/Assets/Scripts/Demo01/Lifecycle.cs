@@ -9,7 +9,7 @@ using UnityEngine;
  * desceiption: 脚本生命周期
  */
 
-public class Lifecycle : MonoBehaviour 
+public class Lifecycle : MonoBehaviour
 {
     // 序列化字段
     // 作用：编译器中显示私有变量
@@ -24,7 +24,7 @@ public class Lifecycle : MonoBehaviour
 
     public static int d = 0;
 
-    public Lifecycle() 
+    public Lifecycle()
     {
         // Debug.Log("constructor");
         // 不要在脚本中写构造函数，or异常
@@ -39,9 +39,9 @@ public class Lifecycle : MonoBehaviour
      * * 时机：创建游戏对象，立即执行 （早于start）
      * 作用：初始化
      */
-    private void Awake() 
+    private void Awake()
     {
-        Debug.Log("time" + Time.time + "name" + this.name + d++);
+        Debug.Log("name" + this.name + d++);
     }
 
     /**
@@ -50,6 +50,10 @@ public class Lifecycle : MonoBehaviour
      */
     private void Start()
     {
+
+        int a = 1;
+        int b = 2;
+        int c = a + b;
         Debug.Log("time" + Time.time + "name" + this.name + d++);
     }
 
@@ -58,7 +62,7 @@ public class Lifecycle : MonoBehaviour
      */
     private void OnEnable()
     {
-        
+
     }
 
     /**************物理阶段**********************/
@@ -70,7 +74,15 @@ public class Lifecycle : MonoBehaviour
      */
     private void FixedUpdate()
     {
-        
+        /**
+         * 多帧Debug：单帧调试
+         * 1. 启动调试
+         * 2. 运行场景
+         * 3. 暂停游戏
+         * 4. 加断点
+         * 5. 单帧执行
+         * 6. 结束调试
+         **/
     }
 
     /**
@@ -80,7 +92,7 @@ public class Lifecycle : MonoBehaviour
      */
     private void Update()
     {
-        
+
     }
 
     /**
@@ -90,7 +102,7 @@ public class Lifecycle : MonoBehaviour
      */
     private void LateUpdate()
     {
-        
+
     }
 
     /**
@@ -99,7 +111,7 @@ public class Lifecycle : MonoBehaviour
      */
     private void OnBecameVisible()
     {
-        
+
     }
 
     /**
@@ -107,7 +119,7 @@ public class Lifecycle : MonoBehaviour
      */
     private void OnBecameInvisible()
     {
-        
+
     }
 
 
