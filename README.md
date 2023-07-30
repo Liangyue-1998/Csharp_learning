@@ -15,7 +15,8 @@
 ![image](https://github.com/Liangyue-1998/Csharp_learning/assets/61789633/063845a5-4de9-404a-8ad6-3295f3a67fd0)
 ---
 ### 常用API
-![image](https://github.com/Liangyue-
-1998/Csharp_learning/assets/61789633/7356795e-67b6-4041-91ef-8d740dcc2d80)
+![image](https://github.com/Liangyue-1998/Csharp_learning/assets/61789633/72cbfa3b-21be-4a7e-a112-6eb999656bb2)
+
+
 
 
